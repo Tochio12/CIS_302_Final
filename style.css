@@ -1,0 +1,76 @@
+@charset "utf-8";
+/*
+   CSS file for portfolio
+   Author: Tochio Herrera
+   Date:   10/17/24
+   
+   Filename: style.css
+*/
+
+body {
+    background-color: #5cb85c; 
+}
+
+table {
+    border: 1px solid black;
+    background-color: #bbf3a3; 
+    margin: 25px auto;
+    width: 70%;
+    text-align: left;
+    border-collapse: collapse;
+}
+
+caption {
+    caption-side: top;
+    text-align: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-size: 1.5em;
+    padding: 15px;
+}
+
+th {
+    background-color: #4cae4c; 
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.2em;
+    padding: 10px;
+    text-align: left;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 15px;
+    vertical-align: top;
+}
+
+ol {
+    padding-left: 20px;
+}
+
+figure {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+figcaption {
+    text-align: center;
+    font-style: italic;
+}
+
+img {
+    padding: 10px;
+    width: 150px;
+    border: 2px solid #4cae4c;
+}
+
+.footer {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #4cae4c; 
+    color: white;
+    font-size: 1em;
+    padding: 10px;
+}
+
